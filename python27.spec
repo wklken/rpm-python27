@@ -414,6 +414,7 @@ rm -f mainpkg.files tools.files
 %files devel
 %defattr(-,root,root)
 %{__prefix}/include/python%{libvers}/*.h
+%{__prefix}/include/python%{libvers}/*/*.h
 %{__prefix}/%{libdirname}/python%{libvers}/config
 
 %if %{include_tools}
