@@ -9,7 +9,7 @@ To Build:
 
 `sudo yum -y install tk-devel tcl-devel expat-devel db4-devel gdbm-devel sqlite-devel bzip2-devel openssl-devel ncurses-devel readline-devel`
 
-`wget https://raw.github.com/nmilford/rpm-python27/master/python27.spec -O ~/rpmbuild/SPECS/python27.spec`
+`wget https://raw.github.com/wklken/rpm-python27/master/python27.spec -O ~/rpmbuild/SPECS/python27.spec`
 
 `wget https://www.python.org/ftp/python/2.7.10/Python-2.7.10.tgz -O ~/rpmbuild/SOURCES/Python-2.7.10.tgz`
 
